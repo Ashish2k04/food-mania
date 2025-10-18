@@ -19,6 +19,22 @@ main {
     height: 100%;
 }
 
+.btns {
+    padding: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #ffbe33;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.btns:hover {
+    background-color: #E69C00;
+}
+
 nav {
     height: 10%;
     width: 100%;
@@ -43,7 +59,15 @@ nav ul {
 }
 
 li:nth-child(1) {
-    color: yellow;
+    color: #ffbe33;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #ffbe33;
 }
 
 #n1 {
@@ -51,6 +75,7 @@ li:nth-child(1) {
     font-optical-sizing: auto;
     font-style: normal;
     color: #fff;
+    cursor: pointer;
 }
 
 #n3 {
@@ -62,19 +87,14 @@ li:nth-child(1) {
     align-items: center;
 }
 
-#n3 button {
-    padding: 1.2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    border-radius: 1rem;
-    border: none;
-    background-color: #ffbe33;
-    color: white;
-    font-size: 0.8rem;
-}
-
 #n3 i {
     font-size: 0.8rem;
+    cursor: pointer;
+    color: #ffff;
+}
+
+#n3 i:hover {
+    color: #ffbe33;
 }
 
 #sec-1 {
@@ -109,22 +129,42 @@ li:nth-child(1) {
     margin-bottom: 0.7rem;
 }
 
-#hero-text button{
+#hero-text button {
     padding: 2.3rem;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
-    border-radius: 1rem;
-    border: none;
-    background-color: #ffbe33;
-    color: white;
-    font-size: 0.8rem;
 }
 
 #sec-2 {
-    height: 100%;
+    height: 50%;
     width: 100%;
     background-color: orange;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.cards{
+    background-color: #222831;
+    height: 60%;
+    width: 35%;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#card-1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#imgcard{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    background: url(/imgs/o1.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 4px solid yellow;
 }
