@@ -138,7 +138,7 @@ nav ul li:hover {
 #sec-2 {
     height: 50%;
     width: 100%;
-    background-color: orange;
+    /* background-color: orange; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,10 +153,12 @@ nav ul li:hover {
     color: #fff;
 }
 
-#card-1{
+#card-1, #card-2{
     display: flex;
     justify-content: start;
     align-items: center;
+    gap: 1rem;
+    padding-left: 0.7rem;
 }
 
 #imgcard{
@@ -167,4 +169,34 @@ nav ul li:hover {
     background-position: center;
     background-size: cover;
     border: 4px solid yellow;
+}
+
+#textcard h3, h2{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#txtcard > h2{
+    font-weight: 1rem;
+    font-size: 2rem;
+    color: yellow;
+}
+
+#imgcard2{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    background: url(/imgs/o2.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 4px solid yellow;
+}
+
+#offtxt{
+    font-size: 1rem;
+}
+
+#textcard{
+    line-height: 2.2rem;
 }
