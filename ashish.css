@@ -169,6 +169,12 @@ nav ul li:hover {
     background-position: center;
     background-size: cover;
     border: 4px solid yellow;
+    transition: all ease 0.3s;
+}
+
+#imgcard:hover{
+    transform: scale(1.1);
+    border: 4px solid white;
 }
 
 #textcard h3, h2{
@@ -191,6 +197,12 @@ nav ul li:hover {
     background-position: center;
     background-size: cover;
     border: 4px solid yellow;
+    transition: all ease 0.3s;
+}
+
+#imgcard2:hover{
+    transform: scale(1.1);
+    border: 4px solid white;
 }
 
 #offtxt{
@@ -199,4 +211,56 @@ nav ul li:hover {
 
 #textcard{
     line-height: 2.2rem;
+}
+
+#sec-3{
+    /* background:red; */
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+   
+}
+
+.sec-3-child{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 100%;
+}
+
+.our-menu{
+    height: 3rem;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-menu h5{
+    color:black;
+    font-size: 2rem;
+     font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#menu-list{
+    height: 5rem;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#menu-list li{
+ list-style: none;
+}
+
+#menu-list  li:nth-child(1){
+    background-color:#222831;
+    color: #ffffff;
+    
 }
