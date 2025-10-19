@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feane</title>
     <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aman.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,39 +32,55 @@
                 </ul>
             </div>
             <div id="n3">
-                <i class="fa-solid fa-user" style="color: #ffffff;"></i>
-                <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
-                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
-                <button id="orderbtn">Order Online</button>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <button class="btns">Order Online</button>
             </div>
         </nav>
 
-        <section id="sec-1"></section>
+        <section id="sec-1">
+            <div id="hero-text">
+                <h1>Fast Food Restaurant</h1>
+                <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam
+                    quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil
+                    ducimus libero ipsam.</p>
+                <button class="btns">Order Now</button>
+            </div>
+        </section>
 
         <section id="sec-2">
-           <div class="card-container">
-            <div class="card-1">
-                <div class="img-div">
-                </div>
-                <div class="text-div">
-                    <h5>Tasty Thursdays</h5>
-                    <h6>20% off</h6>
-                    <button>Order Now <span><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></span></button>
-                </div>
+            <div id="card-1" class="cards">
+            <div id="imgcard"></div>
+            <div id="textcard">
+                <h3>Tasty Thursdays</h3>
+                <h2>20% <span id="offtxt">off</span></h2> 
+                <button class="btns">Order Now  <i class="fa-solid fa-cart-shopping"></i></button>
             </div>
-            <div class="card-2">
-                <div class="img-div-2">
-                </div>
-                <div class="text-div-2">
-                    <h5>Tasty Thursdays</h5>
-                    <h6>20% off</h6>
-                    <button>Order Now <span><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></span></button>
-                </div>
             </div>
-          
-            
-           </div>
+            <div id="card-2" class="cards">
+                <div id="imgcard2"></div>
+            <div id="textcard">
+                <h3>Tasty Thursdays</h3>
+                <h2>20% <span id="offtxt">off</span></h2> 
+                <button class="btns">Order Now  <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </section>
 
+        <section id="sec-3">
+            <div class="sec-3-child">
+                <div class="our-menu">
+                    <h5>Our Menu</h5>
+                </div>
+                <ul id="menu-list">
+                    <li class="btns">All</li>
+                    <li>Burger</li>
+                    <li>Pizza</li>
+                    <li>Pasta</li>
+                    <li>Fries</li>
+                </ul>
+
+            </div>
         </section>
     </main>
 </body>
