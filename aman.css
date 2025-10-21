@@ -145,7 +145,7 @@ nav ul li:hover {
     gap: 1.5rem;
 }
 
-.cards{
+.cards {
     background-color: #222831;
     height: 60%;
     width: 35%;
@@ -153,7 +153,8 @@ nav ul li:hover {
     color: #fff;
 }
 
-#card-1, #card-2{
+#card-1,
+#card-2 {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -161,61 +162,74 @@ nav ul li:hover {
     padding-left: 0.7rem;
 }
 
-#imgcard{
+#imgcard {
     height: 165px;
     width: 165px;
     border-radius: 50%;
-    background: url(imgs/o1.jpg);
+    background: url(/imgs/o1.jpg);
     background-position: center;
     background-size: cover;
     border: 4px solid yellow;
+    transition: all ease 0.3s;
 }
 
-#textcard h3, h2{
+#imgcard:hover {
+    transform: scale(1.1);
+    border: 4px solid white;
+}
+
+#textcard h3,
+h2 {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
-#txtcard > h2{
+#txtcard>h2 {
     font-weight: 1rem;
     font-size: 2rem;
     color: yellow;
 }
 
-#imgcard2{
+#imgcard2 {
     height: 165px;
     width: 165px;
     border-radius: 50%;
-    background: url(imgs/o2.jpg);
+    background: url(/imgs/o2.jpg);
     background-position: center;
     background-size: cover;
     border: 4px solid yellow;
+    transition: all ease 0.3s;
 }
 
-#offtxt{
+#imgcard2:hover {
+    transform: scale(1.1);
+    border: 4px solid white;
+}
+
+#offtxt {
     font-size: 1rem;
 }
 
-#textcard{
+#textcard {
     line-height: 2.2rem;
 }
 
-#sec-3{
+#sec-3 {
     /* background:red; */
-    height: 100%;
+    height: 10%;
     width: 100%;
     padding: 2rem;
-   
+
 }
 
-.sec-3-child{
+.sec-3-child {
     /* background-color: yellow; */
     height: 100%;
     width: 100%;
 }
 
-.our-menu{
+.our-menu {
     height: 3rem;
     /* background-color: green; */
     display: flex;
@@ -223,32 +237,162 @@ nav ul li:hover {
     align-items: center;
 }
 
-.our-menu h5{
-    color:black;
+.our-menu h5 {
+    color: black;
     font-size: 2rem;
-     font-family: "Dancing Script", cursive;
+    font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
-#menu-list{
+#menu-list {
     height: 5rem;
     width: 100%;
     /* background-color: red; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:2rem;
+    gap: 2rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
-#menu-list li{
- list-style: none;
+#menu-list li {
+    list-style: none;
 }
 
-#menu-list  li:nth-child(1){
-    background-color:#222831;
+#menu-list li:nth-child(1) {
+    background-color: #222831;
     color: #ffffff;
+
+}
+
+#sec-4{
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    padding-left: 9.9rem;
+    padding-right: 9.9rem;
+}
+
+#parent-card{
+    height: 100%;
+    width: 100%;
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card-1{
+    width: 18rem;
+    height: 20rem;
+    background-color: #222831;
+    border-radius: 1rem;
+    position: relative;
+   
+}
+
+#top-img{
+    width: 100%;
+    height: 50%;
+    background-color: #F1F2F3;
+    border-radius: 1rem 1rem 0rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-img img{
+    height: 7rem;
+    transition: all ease 0.1s;
+}
+
+#top-img img:hover{
+    transform: scale(1.1);
+}
+
+#card-cont{
+    width: 100%;
+    height: 40%;
+    padding-left: 1rem;
+    padding-top: 1.2rem;
+    color: #ffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#card-cont p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+#card-cont h5{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem
+}
+
+#card-btm{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 0.8rem;
+}
+
+#card-btm h6{
+    color: #ffff;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#cardbtn{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer{
+    background-color: #E69C00;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.footer-child{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 3rem;
+}
+
+.content-us{
+    padding: 20px;
+    padding-right: 60px;
+    background-color: #8133ff;
+    display: flex;
+    flex-direction: column;
     
 }
+
+.feane{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 20rem;
+    
+}
+
+
