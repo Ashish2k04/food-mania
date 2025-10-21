@@ -358,3 +358,44 @@ h2 {
     padding-left: 10px;
     padding-right: 10px;
 }
+<<<<<<< HEAD
+
+#footer{
+    background-color: #E69C00;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.footer-child{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 3rem;
+}
+
+.content-us{
+    padding: 20px;
+    padding-right: 60px;
+    background-color: #8133ff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.feane{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 20rem;
+    
+}
+
+
+=======
+>>>>>>> 5f0dd73ce2f2343ab3666772b0c223ee87a08760
