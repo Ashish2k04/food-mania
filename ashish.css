@@ -273,6 +273,7 @@ h2 {
     margin-top: 5rem;
     padding-left: 9.9rem;
     padding-right: 9.9rem;
+    margin-bottom: 4rem;
 }
 
 #parent-card{
@@ -357,4 +358,38 @@ h2 {
 #cardbtn{
     padding-left: 10px;
     padding-right: 10px;
+}
+
+#sec-5{
+    width: 100%;
+    height: 65%;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-cards{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    height: 100%;
+    width: 33%;
+}
+
+#card-1{
+    background-color: aqua;
+}
+
+#card-2{
+    background-color: brown;
+}
+
+#card-3{
+    background-color: chartreuse;
 }
